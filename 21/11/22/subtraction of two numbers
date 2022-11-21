@@ -4,3 +4,8 @@ a=int(x)
 b=int(y)
 c=a-b
 print('result',c)
+
+out put:
+enter 1st number: 10
+enter 2nd number: 5
+result 0
