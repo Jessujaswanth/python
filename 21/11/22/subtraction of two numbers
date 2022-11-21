@@ -1,0 +1,6 @@
+x=input('enter 1st number: ')
+y=input('enter 2nd number: ')
+a=int(x)
+b=int(y)
+c=a-b
+print('result',c)
