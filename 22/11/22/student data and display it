@@ -1,0 +1,16 @@
+sno=int(input('enter student number :'))
+name=input('enter the name of the student :')
+gender=input('enter the student gender :')
+group=input('enter the group of the student :')
+address=input('enter the address of the student :')
+phno=int(input('enter the phone number of the student :'))
+print('student data is comformed')
+
+out put:
+enter student number :22
+enter the name of the student :jaswanth
+enter the student gender :male
+enter the group of the student :AIR
+enter the address of the student :chapalthum centre eluru 2
+enter the phone number of the student :8885332868
+student data is comformed
