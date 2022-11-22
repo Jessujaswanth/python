@@ -1,0 +1,11 @@
+p=int(input('enter principle amount :'))
+si=float(input('enter the simple intrest :'))
+t=int(input('enter the time period :'))
+emi=(p+si)/t*12
+print('the emi is',emi)
+
+out put:
+enter principle amount :40000
+enter the simple intrest :18.5
+enter the time period :12
+the emi is 40018.5
