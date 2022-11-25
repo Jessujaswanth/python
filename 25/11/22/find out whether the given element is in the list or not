@@ -1,0 +1,19 @@
+#find out whether the given element is in the list or not
+list=(1,4,5,7,8,5,7)
+print('enter any number :')
+n=int(input())
+if n in list:
+    print('yes')
+else:
+    print('no')
+    
+    out put:
+        enter any number :
+7
+yes
+        
+   out put2:
+   enter any number :
+11
+no
+   
