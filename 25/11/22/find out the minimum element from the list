@@ -1,0 +1,10 @@
+#findout minimum element from the list
+list=[1,4,5,6,7]
+min=list[0]
+for i in list:
+    if i<min:
+        min=i
+    print('minimum value =',min)
+    
+    out put:
+    minimum value = 1
