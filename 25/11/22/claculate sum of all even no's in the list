@@ -1,0 +1,12 @@
+print('Calculate sum of all even elemnts in the list')
+list=[2,3,4,5,6,7,8,9,15,17,18,20]
+sum=0
+for i in list:
+    if(i%2==0):
+        sum=sum+i
+print('\nsum of even numbers is:',sum)
+
+out put:
+Calculate sum of all even elemnts in the list
+
+sum of even numbers is: 58
