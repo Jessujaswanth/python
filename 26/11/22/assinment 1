@@ -1,0 +1,16 @@
+#write a program to perform bitwise and bitwise or and bitwise exclusive or operations for a and b values
+A=int(input())
+B=int(input())
+A&B
+A|B
+A^B
+print(A&B)
+print(A|B)
+print(A^B)
+
+out put:
+10
+12
+8
+14
+6
