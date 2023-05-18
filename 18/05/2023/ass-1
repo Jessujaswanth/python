@@ -1,10 +1,12 @@
-optimal solution:
-#User function Template for python3
 class Solution:
-    def maximumSumSubarray (self,K,Arr,N):
-        winsum=sum(Arr[:K])
-        maxsum=winsum
-        for i in range(N-K):#0<5
-            winsum=winsum-Arr[i]+Arr[i+K]
-            maxsum=max(maxsum,winsum)
-        return maxsum
+    def maxSubArray(self, nums: List[int]) -> int:
+        maxsub=nums[0]
+        n=len(nums)
+        cursum=0
+        for i in range(0,n):
+            cursum=cursum+nums[i]
+            if cursum>maxsub:
+                maxsub=cursum
+            if cursum<0:
+                cursum=0
+        return maxsub
