@@ -1,0 +1,5 @@
+class Solution:
+    def gcd(self, A, B):
+        if A==0:
+            return B
+        return ob.gcd(B%A,A)
