@@ -1,0 +1,9 @@
+def countcb(X):
+    if X==0:
+        return 1
+    elif X<0:
+        return 0
+    else:
+        return countcb(X-2)+countcb(X-3)+countcb(X-5)
+X=int(input())
+print(countcb(X))
